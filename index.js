@@ -39,6 +39,6 @@ document.getElementById("form-user-create").addEventListener("submit", function(
     }
   });
 
-  addLine(dataUser)
+  addLine(user) // a sua função addLine tem que receber os valores dos usuarios!!
 });
 
